@@ -1,0 +1,4 @@
+/* --- HTML 5 Fix --- */
+section, article, header, footer, nav, aside, hgroup {
+  display: block;
+}

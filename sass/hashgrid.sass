@@ -1,0 +1,32 @@
+/* --- #grid --- */
+#grid
+  /* Vertical grid lines */
+  background: url("../images/bg-grid-980.gif") repeat-y 0 0
+
+  /* Dimensions - same width as your grid with gutters */
+  width: 980px
+
+  /* Grid (left-aligned) */
+  position: absolute
+  top: 0
+  left: 0
+
+  /* Grid (centered) */
+  position: absolute
+  top: 0
+  left: 50%
+  margin-left: -490px
+
+  /* --- #grid multiple classes --- */
+  &.grid-1
+    background: url("../images/bg-grid-980.gif") repeat-y 0 0
+  &.grid-2
+    background: url("../images/bg-grid-660.gif") repeat-y 160px 0
+    padding: 0 160px
+    width: 660px
+
+  div.horiz
+    height: 19px
+    border-bottom: 1px dotted #aaa
+    margin: 0
+    padding: 0

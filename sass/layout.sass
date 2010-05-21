@@ -1,0 +1,10 @@
+
+// Represents a rounded mixin for setting rounded
+@mixin rounded($side, $radius: 10px)
+  border-#{$side}-radius: $radius
+  -moz-border-radius-#{$side}: $radius
+  -webkit-border-#{$side}: $radius
+
+/* --- HTML 5 Fix --- */
+section, article, header, footer, nav, aside, hgroup
+  display: block

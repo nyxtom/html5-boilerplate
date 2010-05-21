@@ -1,0 +1,43 @@
+/* 
+ * HTML5 Boilerplate Web Files
+ * Version: 1.0
+ * Represents a boilerplate for websites that need to include 
+ * lots of different components from simple to the complex sites 
+ * providing a set of tools and libraries to work from.
+ *
+ */
+
+/* --- See http://html5shiv.googlecode.com/ --- */
+/* --- See http://code.google.com/p/ie7-js/ --- */
+< IE 9 Support for
+  +HTML5Shiv (Provides rendering of html5 elements in < IE9
+  +ie9.js (Fixes many css and dom related issues in < IE9)
+
+/* --- See http://code.google.com/p/svgweb/ --- */
+SVG, Audio, Video, Fonts, SVG Animtion (SMIL)
+  +SVGWeb (Provides support for the features across IE and many older browsers)
+
+/* --- See http://sass-lang.com/ --- */
+SASS/Compass
+  +config.rb (Compass/SASS Configuration File loaded when running compass watch)
+
+Style/Layout/Grid
+  +sass/default.sass (Provides initial default sass file)
+  +sass/layout.sass (Adds initial html5 elements to render as well as 960 grid overlay)
+
+/* --- See http://hashgrid.com/ --- */
+#grid
+  +js/hashgrid.js (Adds a grid overlay capability to render a simple 960 grid overlay)
+  +images/bg-grid-960.gif
+  +images/bg-grid-660.gif
+  +sass/layout.sass (#grid styles used with the overlay technique)
+
+/* --- See http://jquery.com/ --- */
+Jquery
+  +js/jquery-1.4.2.min.js (Provides jquery capabilities and added to the website)
+
+/* --- See http://weblogs.asp.net/scottgu/archive/2010/05/07/jquery-templates-and-data-linking-and-microsoft-contributing-to-jquery.aspx --- */
+/* --- and http://github.com/jquery/jquery-tmpl --- */
+/* --- Note: future release of Jquery may simply include this functionality --- */
+JQuery Data Linking/Templates
+  +js/jquery.tmpl.js (Provides data linking and jquery templates via a jquery plugin)
